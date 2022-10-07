@@ -27,6 +27,12 @@ function Name() {
             <div>
             {nameData.firstname.name}
             </div>
+            <div>
+            추천하는 영어 성은
+            </div>
+            <div>
+            {nameData.Lastname.name}
+            </div>
             <button onClick={onClickHandler}>이름이 맘에 안들어! 이름 바꾸기</button>
         </div>
     );
